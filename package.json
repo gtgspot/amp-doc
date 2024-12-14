@@ -1,0 +1,23 @@
+{
+  "name": "ampdoc-service-example",
+  "version": "1.0.0",
+  "description": "A simple example demonstrating the use of the AmpDocService class.",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server",
+    "build": "echo 'No build step required'",
+    "deploy": "wrangler publish"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "wrangler": "^2.0.0"
+  },
+  "keywords": [
+    "cloudflare",
+    "workers",
+    "ampdoc",
+    "example"
+  ]
+}
